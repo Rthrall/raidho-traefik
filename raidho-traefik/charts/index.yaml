@@ -3,7 +3,7 @@ entries:
   rtraefik:
     - apiVersion: v2
       appVersion: v3.6.15
-      created: "2026-05-05T05:22:15.205871057-07:00"
+      created: "2026-05-05T05:23:50.938049076-07:00"
       description: A custom Traefik based Kubernetes ingress controller
       digest: b5be3dece09a49fc9ff86067c2b5ca8c5083c292b78737d064b9109b245c95c3
       icon: https://raw.githubusercontent.com/traefik/traefik/master/docs/content/assets/img/traefik.logo.png
@@ -16,4 +16,4 @@ entries:
       urls:
         - https://rthrall.github.io/raidho-traefik/rtraefik-39.0.5.tgz
       version: 39.0.5
-generated: "2026-05-05T05:22:15.195845988-07:00"
+generated: "2026-05-05T05:23:50.927968382-07:00"
