@@ -164,4 +164,3 @@ tests:
       - notContains:
           path: spec.template.spec.containers[0].args
           content: "--tracing.otlp.grpc.tls"
-

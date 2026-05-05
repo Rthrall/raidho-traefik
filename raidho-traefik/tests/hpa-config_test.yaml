@@ -27,7 +27,7 @@ tests:
         scaleTargetRef:
           apiVersion: argoproj.io/v1alpha1
           kind: Rollout
-          name: "{{ template \"traefik.fullname\" . }}"
+          name: '{{ template "traefik.fullname" . }}'
     asserts:
       - equal:
           path: spec.scaleTargetRef.apiVersion

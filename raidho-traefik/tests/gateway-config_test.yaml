@@ -33,7 +33,7 @@ tests:
     asserts:
       - equal:
           path: spec.listeners[0].allowedRoutes.namespaces
-          value: 
+          value:
             from: "All"
   - it: should configure Selector for a namespacePolicy
     set:
@@ -51,7 +51,7 @@ tests:
     asserts:
       - equal:
           path: spec.listeners[0].allowedRoutes.namespaces
-          value: 
+          value:
             from: "Selector"
             selector:
               matchLabels:

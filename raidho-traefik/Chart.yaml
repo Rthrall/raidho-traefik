@@ -7,5 +7,5 @@ appVersion: v3.6.15
 kubeVersion: ">=1.25.0-0"
 icon: https://raw.githubusercontent.com/traefik/traefik/master/docs/content/assets/img/traefik.logo.png
 maintainers:
-- name: rthrall
-  email: test@test.com
+  - name: rthrall
+    email: test@test.com

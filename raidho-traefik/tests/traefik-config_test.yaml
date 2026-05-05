@@ -1123,7 +1123,7 @@ tests:
     set:
       providers:
         kubernetesIngress:
-          nmespaces: [ "foobar"] # typo here
+          nmespaces: ["foobar"] # typo here
     asserts:
       - failedTemplate:
           errorPattern: "values don't meet the specifications of the schema"
@@ -1139,7 +1139,7 @@ tests:
     set:
       providers:
         kubernetesIngressNGINX:
-          namespaces: [ "shouldfail" ] # typo here
+          namespaces: ["shouldfail"] # typo here
     asserts:
       - failedTemplate:
           errorPattern: "values don't meet the specifications of the schema"

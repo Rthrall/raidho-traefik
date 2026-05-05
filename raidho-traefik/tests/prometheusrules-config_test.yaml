@@ -44,7 +44,7 @@ tests:
             rules:
               - alert: TraefikDown
                 annotations:
-                  description: '{{ $labels.pod }} on {{ $labels.nodename }} is down'
+                  description: "{{ $labels.pod }} on {{ $labels.nodename }} is down"
                   summary: Traefik Down
                 expr: up{job="traefik"} == 0
                 for: 5m

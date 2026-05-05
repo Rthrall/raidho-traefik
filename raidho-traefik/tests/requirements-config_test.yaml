@@ -37,7 +37,7 @@ tests:
         tag: unknown
     asserts:
       - failedTemplate:
-          errorMessage: "ERROR: version \"unknown\" is not supported"
+          errorMessage: 'ERROR: version "unknown" is not supported'
   - it: should fail when trying to use this Chart with Traefik Proxy v3 and Hub enabled
     set:
       hub:

@@ -182,7 +182,7 @@ tests:
   - it: "ClusterRole should be configurable with multiples aggregate-to- label"
     set:
       rbac:
-        aggregateTo: [ "admin", "edit" ]
+        aggregateTo: ["admin", "edit"]
     template: rbac/clusterrole.yaml
     asserts:
       - equal:
@@ -710,7 +710,6 @@ tests:
               - get
               - list
               - watch
-
 
   - it: should contain additional RBACS for hub API gateway
     set:

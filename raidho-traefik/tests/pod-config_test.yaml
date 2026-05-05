@@ -486,7 +486,6 @@ tests:
           path: spec.template.spec.containers[0].args
           content: "--certificatesresolvers.myAcmeResolver.acme.disableCommonName=true"
 
-
   - it: should have the distributed acme resolver options applied
     set:
       certificatesResolvers:
@@ -623,8 +622,8 @@ tests:
         websecure:
           http:
             middlewares:
-            - auth@file
-            - strip@kubernetes-crd
+              - auth@file
+              - strip@kubernetes-crd
     asserts:
       - contains:
           path: spec.template.spec.containers[0].args
@@ -635,7 +634,7 @@ tests:
         web:
           http:
             middlewares:
-            - auth@file
+              - auth@file
     asserts:
       - contains:
           path: spec.template.spec.containers[0].args
