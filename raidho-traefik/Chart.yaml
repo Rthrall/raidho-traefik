@@ -1,5 +1,5 @@
 apiVersion: v2
-name: traefik
+name: rtraefik
 description: A custom Traefik based Kubernetes ingress controller
 type: application
 version: 39.0.5
