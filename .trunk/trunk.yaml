@@ -39,6 +39,7 @@ actions:
     - trunk-upgrade-available
 tools:
   enabled:
+    - gh@2.92.0
     - markdown-link-check@3.14.2
     - action-validator@0.9.0
     - dotenv-linter@4.0.0
